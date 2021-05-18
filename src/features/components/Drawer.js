@@ -73,7 +73,7 @@ export default function TemporaryDrawer() {
         {/* fill array with direction drawer opens, removing all but bottom for now */}
       {[ 'bottom'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}><ArrowUpwardIcon style={{height: "80px", fontSize: 70}} /></Button>
+          <Button onClick={toggleDrawer(anchor, true)}><ArrowUpwardIcon style={{height: "80px", fontSize: 70, position: 'sticky',bottom:0}} /></Button>
           <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}
           </Drawer>
