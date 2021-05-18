@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import timeHelper from '../../../utils/timeHelper';
-import createRows from '../../../utils/createRows';
+import timeHelper from '../../utils/timeHelper';
+import createRows from '../../utils/createRows';
+import CheckBox from './CheckBox'
 
 
 export default function SpreadSheet(props) {
@@ -20,7 +21,7 @@ export default function SpreadSheet(props) {
 
     return times.map((t) => (
       <tr>
-        <th className="commonRow time">{t}</th>
+        <th className="commonRow time">{t}<CheckBox /></th>
         {renderTables(t, data)}
       </tr>
     ));

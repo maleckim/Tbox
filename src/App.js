@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import { TSheet } from './features/timesheet/TSheet'
-import ContextMenu from './features/timesheet/components/ContextMenu'
-import Drawer from './features/timesheet/components/Drawer'
-import NavBar from './features/timesheet/components/NavBar';
+// import ContextMenu from './features/timesheet/components/ContextMenu'
+import Drawer from './features/components/Drawer';
+import NavBar from './features/components/NavBar';
 import './App.css'
 
 
