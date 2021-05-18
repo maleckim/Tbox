@@ -13,8 +13,8 @@ export function TSheet() {
   const data = [
     {
       '06:24': ['matt', 'tony', 'abby', 'misskitty', 'poop'],
-      '07:04': ['itty', 'bitty', 'titty', 'balls'],
-      '07:28': ['test', 'test', 'test'],
+      '07:04': ['itty', 'bitty', 'buddy', 'pal'],
+      '07:28': ['tiger', 'bubba', 'test'],
       '08:56': ['solo'],
     },
   ];
