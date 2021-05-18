@@ -146,14 +146,9 @@ export default function PrimarySearchAppBar(props) {
         <p>Notifications</p>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
-        <IconButton
-          aria-label="account of current user"
-          aria-controls="primary-search-account-menu"
-          aria-haspopup="true"
-          color="inherit"
-        >
+        
           <AccountCircle />
-        </IconButton>
+        
         <p>Profile</p>
       </MenuItem>
     </Menu>
@@ -163,30 +158,18 @@ export default function PrimarySearchAppBar(props) {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
             aria-label="open drawer"
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Typography className={classes.title} variant="h6" noWrap>
-            Material-UI
+            Tbox
           </Typography>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </div>
+          
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">

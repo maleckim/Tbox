@@ -21,7 +21,6 @@ export function TSheet() {
 
   return (
     <div>
-      
       <SpreadSheet data={data} />
     </div>
   );
