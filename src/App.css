@@ -37,3 +37,51 @@
     transform: translateY(0px);
   }
 }
+
+.css-wmd9ex-MuiTableRow-root::hover{
+  background-color: white !important;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.commonRow{
+  text-align: center;
+  border: solid grey 1px;
+  filter: opacity(.7);
+  padding:0;
+  margin: 0;
+}
+
+.time{
+  width: 10%;
+}
+
+tr,th{
+  height: 90px;
+  margin: auto;
+}
+
+.innerTable{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}

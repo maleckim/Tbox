@@ -1,8 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import counterSlice from '../features/timesheet/tSheetSlice';
 
 export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+  reducer: counterSlice,
 });

@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "source.fixAll.eslint": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false
+}
