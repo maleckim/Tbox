@@ -11,6 +11,12 @@ const initialState = {
 // code can then be executed and other actions can be dispatched. Thunks are
 // typically used to make async requests.
 
+export const ref = createAsyncThunk('s3/preview', async (res) => {
+  // const response = await generatePreviews(res);
+
+  // return response;
+});
+
 export const counterSlice = createSlice({
   name: 'counter',
   initialState,
@@ -21,7 +27,13 @@ export const counterSlice = createSlice({
   extraReducers: (builder) => {},
 });
 
-export const { increment, decrement, incrementByAmount } = counterSlice.actions;
+
+
+
+// export const { } = counterSlice.actions;
+
+
+
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
